@@ -115,23 +115,59 @@
             margin: 0 auto 2rem;
             opacity: 0.9;
         }
+        .btn-entrada{
+            
+            font-family: "Archivo Narrow", sans-serif;
+            font-size: 1.9rem;
+            font-weight: 700;
+            color: #ffffff;
+
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: 0;
+            line-height: 50px;
+            white-space: normal;
+
+            display: inline-block;
+            background: transparent;
+
+            border: none;
+            border-bottom: 2px solid #1c90d8;
+            border-radius: 0;
+
+            padding: 0;
+            margin: 0;
+
+            cursor: pointer;
+        }
+        .btn-entrada:hover{
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+            font-size: 2.3rem;
+            
+
+        }
 
         .btn {
             display: inline-block;
-            background: var(--accent);
-            color: white;
-            padding: 12px 30px;
+            background: var(--light);
+            color: black;
+            padding: 4px 10px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            font-size: 15px;
+            margin-top: 15px;
         }
 
         .btn:hover {
-            background: #138d75;
+            background: var(--secondary);
+            /**background: #6ea59a;**/
             transform: translateY(-3px);
             box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+            color: white;
         }
 
         /* Contenedor Principal */
@@ -198,19 +234,19 @@
 
         /* Colores específicos para cada tarjeta */
         .QE .tarjeta-header{
-            background: linear-gradient(to right, #AAAAAA, #DDDDDD);
+            background: linear-gradient(to right, #e67e22, #f39c12);
 
         }
-        .mision .tarjeta-header {
+       /* .mision .tarjeta-header {
             background: linear-gradient(to right, #1a5276, #3498db);
         }
 
         .vision .tarjeta-header {
             background: linear-gradient(to right, #16a085, #1abc9c);
-        }
+        }*/
 
         .objetivo .tarjeta-header {
-            background: linear-gradient(to right, #e67e22, #f39c12);
+            background: linear-gradient(to right, #58BB43, #78D23D);
         }
         /*Videos relacionados con DATA-PINCC*/
         .videos {
